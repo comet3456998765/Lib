@@ -4,7 +4,7 @@ function Net.Tab(name, position)
     local frame = Instance.new("Frame")
     frame.Name = name
     frame.Position = position
-    return frame
+    return Tab
 end
 
 function Net.Button(name, clickFunction)
